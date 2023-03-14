@@ -8,7 +8,7 @@ Mail : mail2schoolofit@gmail.com
 -----------------
 Problem statement:
 -----------------
-UPrepare Point Table based results .
+Prepare Point Table based results .
 Winners 4 pts , Losers – 0 pts , and Tie -  2 pts
 
 */
