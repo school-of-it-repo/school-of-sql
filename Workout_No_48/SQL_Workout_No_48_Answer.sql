@@ -45,11 +45,23 @@ from
 
 /
 
-SELECT LEAST(from_id,to_id) as from_id,
+with _data as
+(
+	SELECT LEAST(from_id,to_id) as from_id,
        GREATEST(from_id,to_id) as to_id,
-       COUNT(*) as call_count,
-       SUM(call_duration) as total_duration
-FROM schoolofit.call_tracker
-GROUP BY from_id, to_id
-order by from_id,to_id;
+       call_duration
+
+     FROM schoolofit.call_tracker
+)
+select
+	from_id
+	,to_id
+	,COUNT(*) as call_count,
+    SUM(call_duration) as total_duration
+from
+	_data
+group by
+	from_id,to_id
+order by from_id
+
 /
