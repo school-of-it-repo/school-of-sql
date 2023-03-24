@@ -10,10 +10,7 @@ Problem statement:
 -----------------
 
 
-Problem statement: Group similar location based on user_id and continuous period.
-For example user id 1 stay in USA continuously from JAN to APRIL.
-Fill ‘NA’ if there is NO record found.  Example. User id 1 , there is NO entry for MAY  .
- So ‘NA’ for MAY
+Write an SQL query to show order status summary
 
 
 
