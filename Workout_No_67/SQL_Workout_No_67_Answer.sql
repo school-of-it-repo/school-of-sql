@@ -91,4 +91,5 @@ except
 select * from schoolofit.target_table
 )t2
 ;
+/
 
