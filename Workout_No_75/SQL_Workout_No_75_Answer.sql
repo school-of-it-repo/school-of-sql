@@ -26,3 +26,4 @@ select
 	 ,round(salary - avg(salary) over(),2) as _salary_diff
 from
 schoolofit.hr_employee he
+where department_id =9
