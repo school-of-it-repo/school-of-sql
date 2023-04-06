@@ -1149,3 +1149,4 @@ INSERT INTO schoolofit.t_wishlist (wishlist_id,username,desired_price) VALUES
 	 (1,'hans',450),
 	 (2,'joe',60),
 	 (3,'jane',1500);
+select * from schoolofit.t_product;
