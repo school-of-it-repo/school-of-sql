@@ -9,9 +9,8 @@ Mail : mail2schoolofit@gmail.com
 Problem statement:
 -----------------
 
-Group the occupation.
-Note : The empty cell data for columns with less than the maximum number of names per occupation
-(in this case, the Professor and Actor columns) are filled with NULL values.
+
+Find maximum sum from which two numbers
 
 */
 
