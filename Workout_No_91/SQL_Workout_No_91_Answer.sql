@@ -55,4 +55,4 @@ from
 	_cleaned_data s1
 cross join _cleaned_data s2
 where s1._row_num < s2._row_num
-order by _sum desc,s1.id desc;
+order by _sum desc,s1.id desc limit 1;
