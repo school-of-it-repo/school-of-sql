@@ -71,3 +71,5 @@ values
 (5,4,null,'Hardik Pandya',3),
 (5,5,'OUT','Virat Kohli',0),
 (5,6,null,'Suryakumar Yadav ',6);
+
+select * from schoolofit.match_score;
